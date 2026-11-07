@@ -1,0 +1,919 @@
+{
+ "img1-fr": {
+  "best": [
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "enhc",
+     "obo": false,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 2,
+    "matchRate": 0.9942028985507246,
+    "sumEvLoss": 0.013020365913929577
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "enhc",
+     "obo": false,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 2,
+    "matchRate": 0.9942028985507246,
+    "sumEvLoss": 0.013020365913929577
+   },
+   {
+    "rules": {
+     "decks": 2,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 3,
+    "matchRate": 0.991304347826087,
+    "sumEvLoss": 0.016028542082565878
+   },
+   {
+    "rules": {
+     "decks": 2,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "enhc",
+     "obo": false,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 3,
+    "matchRate": 0.991304347826087,
+    "sumEvLoss": 0.016028542082565878
+   }
+  ],
+  "unreadable": 5
+ },
+ "img2-hsdp": {
+  "best": [
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 2,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 3,
+    "matchRate": 0.9915730337078652,
+    "sumEvLoss": 0.016028542082565878
+   },
+   {
+    "rules": {
+     "decks": 2,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 4,
+    "matchRate": 0.9887640449438202,
+    "sumEvLoss": 0.016539952212131295
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "late",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 4,
+    "matchRate": 0.9887640449438202,
+    "sumEvLoss": 0.05827567179704529
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "enhc",
+     "obo": false,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 4,
+    "matchRate": 0.9887640449438202,
+    "sumEvLoss": 0.532667793124807
+   }
+  ],
+  "unreadable": 4
+ },
+ "img3-card": {
+  "best": [
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 2,
+    "matchRate": 0.994269340974212,
+    "sumEvLoss": 0.013020365913929577
+   },
+   {
+    "rules": {
+     "decks": 2,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 3,
+    "matchRate": 0.9914040114613181,
+    "sumEvLoss": 0.016028542082565878
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "late",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 4,
+    "matchRate": 0.9885386819484241,
+    "sumEvLoss": 0.05827567179704529
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "enhc",
+     "obo": false,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 4,
+    "matchRate": 0.9885386819484241,
+    "sumEvLoss": 0.532667793124807
+   },
+   {
+    "rules": {
+     "decks": 2,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 6,
+    "matchRate": 0.9828080229226361,
+    "sumEvLoss": 0.03087789213947012
+   }
+  ],
+  "unreadable": 1
+ },
+ "img4-468-h17": {
+  "best": [
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "late",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "late",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 2,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 2,
+    "matchRate": 0.9904761904761905,
+    "sumEvLoss": 0.005702743501638255
+   },
+   {
+    "rules": {
+     "decks": 2,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 2,
+    "matchRate": 0.9904761904761905,
+    "sumEvLoss": 0.005702743501638255
+   }
+  ],
+  "unreadable": 0
+ },
+ "img5-blue": {
+  "best": [
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 1,
+    "matchRate": 0.9966216216216216,
+    "sumEvLoss": 0.0031514605791074235
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 1,
+    "matchRate": 0.9966216216216216,
+    "sumEvLoss": 0.0031514605791074235
+   },
+   {
+    "rules": {
+     "decks": 2,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 1,
+    "matchRate": 0.9966216216216216,
+    "sumEvLoss": 0.005191333372072837
+   },
+   {
+    "rules": {
+     "decks": 2,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 2,
+    "matchRate": 0.9932432432432432,
+    "sumEvLoss": 0.0057743175808070285
+   }
+  ],
+  "unreadable": 14
+ },
+ "wizard-48-s17": {
+  "best": [
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "late",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "late",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 2,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 3,
+    "matchRate": 0.9911764705882353,
+    "sumEvLoss": 0.012557927124752677
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 3,
+    "matchRate": 0.9911764705882353,
+    "sumEvLoss": 0.025421613644750485
+   }
+  ],
+  "unreadable": 0
+ },
+ "wizard-48-h17": {
+  "best": [
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "late",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": true,
+     "surrender": "late",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 0,
+    "matchRate": 1,
+    "sumEvLoss": 0
+   },
+   {
+    "rules": {
+     "decks": 2,
+     "h17": true,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 3,
+    "matchRate": 0.9911764705882353,
+    "sumEvLoss": 0.01720089794660877
+   },
+   {
+    "rules": {
+     "decks": 6,
+     "h17": false,
+     "bjPayout": 1.5,
+     "holeCard": "peek",
+     "obo": true,
+     "doubleOn": "any2",
+     "das": false,
+     "surrender": "none",
+     "maxSplitHands": 4,
+     "rsa": false,
+     "hsa": false,
+     "bjAfterSplit": false,
+     "splitTensSameRankOnly": false,
+     "penetration": 0.75
+    },
+    "mismatches": 3,
+    "matchRate": 0.9911764705882353,
+    "sumEvLoss": 0.03851541442923673
+   }
+  ],
+  "unreadable": 0
+ }
+}
