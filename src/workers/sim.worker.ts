@@ -4,52 +4,14 @@
  * cancellable) and the betting & risk lab. Progress messages only report
  * numbers that were actually computed.
  */
-import { generateStrategy, StrategyTable } from '../engine/strategy';
-import { Rules, rulesKey } from '../engine/rules';
 import { Simulator } from '../engine/simulator';
-import {
-  SimStrategy, basicStrategy, chartStrategy, compositionStrategy, foreignBasicStrategy, hiLoStrategy, mimicDealerStrategy, neverBustStrategy, DEFAULT_RAMP,
-} from '../engine/simStrategies';
+import { basicStrategy, hiLoStrategy } from '../engine/simStrategies';
 import { summarize, pairedComparison } from '../engine/stats';
 import { fitKellyModel, runBettingSystem } from '../engine/betting';
-import { SOURCE_CHARTS } from '../data/sourceCharts';
-import type { BettingRunConfig, SimRunConfig, StrategySpec } from './protocol';
+import { buildStrategy, cachedTable as tableFor } from '../engine/strategyFactory';
+import type { BettingRunConfig, SimRunConfig } from './protocol';
 
 const ctx = self as unknown as DedicatedWorkerGlobalScope;
-const tables = new Map<string, StrategyTable>();
-function tableFor(rules: Rules): StrategyTable {
-  const k = rulesKey(rules);
-  let t = tables.get(k);
-  if (!t) {
-    t = generateStrategy(rules);
-    tables.set(k, t);
-  }
-  return t;
-}
-
-function buildStrategy(spec: StrategySpec, rules: Rules): { strategy: SimStrategy; note?: string } {
-  const t = tableFor(rules);
-  switch (spec.kind) {
-    case 'basic':
-      return { strategy: basicStrategy(t) };
-    case 'foreign':
-      return { strategy: foreignBasicStrategy(tableFor({ ...spec.rules, penetration: rules.penetration }), spec.label) };
-    case 'cd2':
-      return { strategy: compositionStrategy(t) };
-    case 'hilo':
-      return { strategy: hiLoStrategy(t, rules, { deviations: spec.deviations, ramp: spec.ramp.length ? spec.ramp : DEFAULT_RAMP }) };
-    case 'mimic':
-      return { strategy: mimicDealerStrategy(rules) };
-    case 'neverbust':
-      return { strategy: neverBustStrategy(t) };
-    case 'chart': {
-      const chart = SOURCE_CHARTS.find((c) => c.id === spec.chartId);
-      if (!chart) throw new Error('Unbekannte Tabelle ' + spec.chartId);
-      const r = chartStrategy(chart, t, rules);
-      return { strategy: r.strategy, note: `${r.filled} unlesbare Zellen durch Engine ergänzt` };
-    }
-  }
-}
 
 interface Run {
   id: string;

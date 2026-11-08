@@ -11,7 +11,7 @@
  * it uses no information about the cards. It only reshapes variance, drawdowns and
  * the probability of ruin.
  */
-import { histogram, linearFit, quantile } from './stats';
+import { histogram, linearFit, normalCdf, quantile } from './stats';
 
 export type BetSystemId = 'flat' | 'martingale' | 'paroli' | 'fibonacci' | 'dalembert' | 'percent' | 'custom' | 'kelly';
 
@@ -76,6 +76,29 @@ export interface SystemResult {
   hist: { edges: number[]; counts: number[] };
   /** a few downsampled bankroll paths for charts */
   samplePaths: number[][];
+  /** per-session net result and money wagered (for paired comparisons) */
+  sessionNet: number[];
+  sessionWager: number[];
+}
+
+/**
+ * Paired comparison of the return per wagered unit of two systems that were applied
+ * to the same sessions (same outcome stream): linearised ratio residuals per session.
+ */
+export function pairedSystemDiff(a: SystemResult, b: SystemResult): { diff: number; se: number; z: number; pValue: number } {
+  const K = Math.min(a.sessionNet.length, b.sessionNet.length);
+  const sum = (x: number[]) => x.slice(0, K).reduce((s, v) => s + v, 0);
+  const ra = sum(a.sessionNet) / sum(a.sessionWager);
+  const rb = sum(b.sessionNet) / sum(b.sessionWager);
+  const xa = sum(a.sessionWager) / K;
+  const xb = sum(b.sessionWager) / K;
+  const d: number[] = [];
+  for (let k = 0; k < K; k++) d.push((a.sessionNet[k] - ra * a.sessionWager[k]) / xa - (b.sessionNet[k] - rb * b.sessionWager[k]) / xb);
+  const m = d.reduce((s, v) => s + v, 0) / K;
+  const v = d.reduce((s, x) => s + (x - m) ** 2, 0) / Math.max(1, K - 1);
+  const se = Math.sqrt(v / K);
+  const z = se > 0 ? (ra - rb) / se : 0;
+  return { diff: ra - rb, se, z, pValue: 2 * (1 - normalCdf(Math.abs(z))) };
 }
 
 export interface KellyModel {
@@ -270,5 +293,7 @@ export function runBettingSystem(id: BetSystemId, stream: OutcomeStream, cfg: Be
     tableLimitHits: limitHits,
     hist: histogram(finals, 30),
     samplePaths,
+    sessionNet: sesNet,
+    sessionWager: sesWag,
   };
 }

@@ -213,3 +213,18 @@ export function linearFit(x: ArrayLike<number>, y: ArrayLike<number>): { a: numb
   const a = (sy - b * sx) / Math.max(1, n);
   return { a, b, n };
 }
+
+/**
+ * Serial dependence check: sums (Σx, Σx², n) of next-round results grouped by the
+ * outcome of the previous round (loss / win / push) along a simulated sequence.
+ */
+export function serialStats(net: ArrayLike<number>): Record<'loss' | 'win' | 'push', [number, number, number]> {
+  const acc: Record<'loss' | 'win' | 'push', [number, number, number]> = { loss: [0, 0, 0], win: [0, 0, 0], push: [0, 0, 0] };
+  for (let i = 1; i < net.length; i++) {
+    const k = net[i - 1] < 0 ? 'loss' : net[i - 1] > 0 ? 'win' : 'push';
+    acc[k][0] += net[i];
+    acc[k][1] += net[i] * net[i];
+    acc[k][2]++;
+  }
+  return acc;
+}

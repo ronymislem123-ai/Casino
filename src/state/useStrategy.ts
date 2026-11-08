@@ -9,7 +9,7 @@ import type { CodeGrid } from '../engine/advisor';
 
 const memo = new Map<string, StrategyTable>();
 const inflight = new Map<string, Promise<StrategyTable>>();
-const TABLE_VERSION = 'v1';
+const TABLE_VERSION = 'v2';
 
 export async function loadStrategyTable(rules: Rules, onProgress?: (p: number) => void): Promise<StrategyTable> {
   const key = TABLE_VERSION + '|' + rulesKey(rules);

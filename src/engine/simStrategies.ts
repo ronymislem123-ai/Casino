@@ -168,7 +168,11 @@ export function hiLoStrategy(table: StrategyTable, rules: Rules, opts: HiLoOptio
   const rampLabel = opts.ramp.join('-');
   return {
     id: opts.deviations ? 'hilo-i18' : 'hilo-bet',
-    name: opts.deviations ? `Hi-Lo + I18/Fab4, Spread ${rampLabel}` : `Hi-Lo Einsatzspread ${rampLabel} (nur Basic)`,
+    name: opts.deviations
+      ? opts.ramp.length <= 1
+        ? 'Hi-Lo-Abweichungen (I18/Fab4), Flat Bet'
+        : `Hi-Lo + I18/Fab4, Spread ${rampLabel}`
+      : `Hi-Lo Einsatzspread ${rampLabel} (nur Basic)`,
     description: opts.deviations
       ? 'Basic Strategy plus Illustrious-18- und Fab-4-Abweichungen nach True Count; Versicherung ab TC +3; Einsatz nach Rampe.'
       : 'Basic Strategy ohne Abweichungen; nur der Einsatz folgt dem True Count.',

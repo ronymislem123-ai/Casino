@@ -253,7 +253,7 @@ export function generateStrategy(rules: Rules, opts: GenerateOptions = {}): Stra
   // hard 21 (multi-card only) and soft 21: always stand; computed for a representative hand
   for (let up = 0; up < 10; up++) {
     const ctxH: HandContext = { up, hand: [TEN, 8, 1] };
-    const ctxS: HandContext = { up, hand: [ACE, 4, 5] };
+    const ctxS: HandContext = { up, hand: [ACE, 3, 5] }; // A,4,6 = soft 21
     for (const [ctx, target] of [
       [ctxH, hard],
       [ctxS, soft],

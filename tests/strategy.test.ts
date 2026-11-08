@@ -40,6 +40,13 @@ describe('Basic-Strategy-Generierung', () => {
     const p = T6S17.comps.filter((c) => c.playerBJ).reduce((s, c) => s + c.prob, 0);
     expect(p).toBeCloseTo((2 * 24 * 96) / (312 * 311), 12);
   });
+  it('Regression: Hard 21 und Soft 21 (Mehrkartenhände) sind gegen jede Upcard Stand', () => {
+    for (let up = 0; up < 10; up++) {
+      expect(T6S17.hard[21][up].code).toBe('S');
+      expect(T6S17.soft[21][up].code).toBe('S');
+      expect(T6H17.soft[21][up].code).toBe('S');
+    }
+  });
   it('Wahrscheinlichkeiten aller Startsituationen summieren zu 1', () => {
     expect(T6S17.comps.reduce((s, c) => s + c.prob, 0)).toBeCloseTo(1, 12);
   });

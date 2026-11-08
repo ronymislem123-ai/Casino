@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BET_SYSTEMS, BetSystemId, BettingConfig } from '../../../engine/betting';
+import { BET_SYSTEMS, BetSystemId, BettingConfig, pairedSystemDiff } from '../../../engine/betting';
 import { describeRules } from '../../../engine/rules';
 import type { ShoeMode } from '../../../engine/simulator';
 import { useSettings } from '../../../state/settings';
@@ -132,6 +132,7 @@ export function BettingLab() {
                     <th>Im Plus</th>
                     <th>Ø Einsatz gesamt</th>
                     <th>EV / Einsatz</th>
+                    <th>Δ zu Flat (gepaart)</th>
                     <th>Ø max. Drawdown</th>
                     <th>Ø längste Verlustserie</th>
                     <th>Ø Einsatz</th>
@@ -149,6 +150,18 @@ export function BettingLab() {
                       <td>{prob(x.aheadProb)}</td>
                       <td>{money(x.meanWagered)}</td>
                       <td title="± 1,96 Standardfehler">{pct(x.evPerWagered, 2)} <span className="muted">± {pct(1.96 * x.evPerWageredSE, 2, false)}</span></td>
+                      <td>
+                        {(() => {
+                          const flat = res.systems.find((y) => y.id === 'flat');
+                          if (!flat || flat === x) return '—';
+                          const c = pairedSystemDiff(x, flat);
+                          return (
+                            <>
+                              {pct(c.diff, 2)} <span className="muted">(p = {num(c.pValue, 3)})</span>
+                            </>
+                          );
+                        })()}
+                      </td>
                       <td>{money(x.meanMaxDrawdown)}</td>
                       <td>{num(x.meanLongestLossStreak, 1)}</td>
                       <td>{money(x.avgBet)}</td>
