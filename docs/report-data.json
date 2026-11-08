@@ -1,0 +1,2401 @@
+{
+ "generated": "2026-11-08T00:22:04.691Z",
+ "roundsPerStrategy": 10000000,
+ "threads": 4,
+ "exact": [
+  {
+   "label": "1 Deck, S17",
+   "rules": "1 Deck · S17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": -0.18391849,
+   "td": -0.17106379,
+   "wizard": -0.182895,
+   "ms": 663
+  },
+  {
+   "label": "1 Deck, H17",
+   "rules": "1 Deck · H17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.007198736,
+   "td": 0.01555707,
+   "wizard": 0.007747,
+   "ms": 467
+  },
+  {
+   "label": "2 Decks, S17",
+   "rules": "2 Decks · S17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.17779957,
+   "td": 0.18116471,
+   "wizard": 0.178315,
+   "ms": 1254
+  },
+  {
+   "label": "2 Decks, H17",
+   "rules": "2 Decks · H17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.37956341,
+   "td": 0.38041229,
+   "wizard": 0.379879,
+   "ms": 1330
+  },
+  {
+   "label": "4 Decks, S17",
+   "rules": "4 Decks · S17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.34701136,
+   "td": 0.34789325,
+   "wizard": 0.347486,
+   "ms": 1462
+  },
+  {
+   "label": "4 Decks, H17",
+   "rules": "4 Decks · H17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.55672451,
+   "td": 0.55672451,
+   "wizard": 0.557183,
+   "ms": 1652
+  },
+  {
+   "label": "6 Decks, S17",
+   "rules": "6 Decks · S17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.4025676,
+   "td": 0.40284373,
+   "wizard": 0.403115,
+   "ms": 1523
+  },
+  {
+   "label": "6 Decks, H17",
+   "rules": "6 Decks · H17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.61509329,
+   "td": 0.61509329,
+   "wizard": 0.615626,
+   "ms": 1673
+  },
+  {
+   "label": "8 Decks, S17",
+   "rules": "8 Decks · S17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.43034939,
+   "td": 0.43034939,
+   "wizard": 0.430961,
+   "ms": 1545
+  },
+  {
+   "label": "8 Decks, H17",
+   "rules": "8 Decks · H17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.64432584,
+   "td": 0.64432584,
+   "wizard": 0.644928,
+   "ms": 1633
+  },
+  {
+   "label": "6 Decks, S17, + Late Surrender",
+   "rules": "6 Decks · S17 · BJ 3:2 · Peek · Double beliebig · DAS · Late Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.3299654,
+   "td": 0.330322,
+   "wizard": 0.330512,
+   "ms": 1474
+  },
+  {
+   "label": "6 Decks, S17, + Early Surrender",
+   "rules": "6 Decks · S17 · BJ 3:2 · Peek · Double beliebig · DAS · Early Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": -0.22442458,
+   "td": -0.22414845,
+   "ms": 1468
+  },
+  {
+   "label": "6 Decks, S17, kein DAS",
+   "rules": "6 Decks · S17 · BJ 3:2 · Peek · Double beliebig · kein DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.54436762,
+   "td": 0.54464375,
+   "wizard": 0.544889,
+   "ms": 1492
+  },
+  {
+   "label": "6 Decks, S17, + Resplit Asse",
+   "rules": "6 Decks · S17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · RSA · 1 Karte auf Split-Asse",
+   "cd": 0.3337915,
+   "td": 0.33406763,
+   "wizard": 0.334573,
+   "ms": 1453
+  },
+  {
+   "label": "6 Decks, S17, + Ziehen auf Split-Asse",
+   "rules": "6 Decks · S17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · Ziehen auf Split-Asse",
+   "cd": 0.21519357,
+   "td": 0.2154697,
+   "wizard": 0.215706,
+   "ms": 1471
+  },
+  {
+   "label": "6 Decks, S17, Split nur bis 2 Hände",
+   "rules": "6 Decks · S17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 2 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.45657755,
+   "td": 0.45685368,
+   "wizard": 0.456886,
+   "ms": 785
+  },
+  {
+   "label": "6 Decks, S17, Double nur 9–11",
+   "rules": "6 Decks · S17 · BJ 3:2 · Peek · Double 9-11 · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.49867539,
+   "td": 0.49895152,
+   "wizard": 0.499221,
+   "ms": 1500
+  },
+  {
+   "label": "6 Decks, S17, Double nur 10–11",
+   "rules": "6 Decks · S17 · BJ 3:2 · Peek · Double 10-11 · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.59464294,
+   "td": 0.59491908,
+   "wizard": 0.595195,
+   "ms": 1491
+  },
+  {
+   "label": "6 Decks, S17, European No-Hole-Card (alles verloren)",
+   "rules": "6 Decks · S17 · BJ 3:2 · ENHC · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.51373604,
+   "td": 0.51401217,
+   "wizard": 0.514166,
+   "ms": 1492
+  },
+  {
+   "label": "6 Decks, S17, No-Hole-Card mit OBO",
+   "rules": "6 Decks · S17 · BJ 3:2 · ENHC (OBO) · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.4025676,
+   "td": 0.40284373,
+   "ms": 1446
+  },
+  {
+   "label": "6 Decks, S17, Blackjack 6:5",
+   "rules": "6 Decks · S17 · BJ 6:5 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 1.7622572,
+   "td": 1.7625334,
+   "ms": 1444
+  },
+  {
+   "label": "6 Decks, S17, Blackjack 1:1",
+   "rules": "6 Decks · S17 · BJ 1:1 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 2.668717,
+   "td": 2.6689931,
+   "ms": 1589
+  },
+  {
+   "label": "6 Decks, H17, DAS, Late Surrender (Bild 4 / Wizard H17)",
+   "rules": "6 Decks · H17 · BJ 3:2 · Peek · Double beliebig · DAS · Late Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "cd": 0.52690504,
+   "td": 0.5269855,
+   "wizard": 0.527409,
+   "ms": 1570
+  }
+ ],
+ "validation": [
+  {
+   "label": "6D S17 DAS, frischer Schuh",
+   "exact": -0.0040284373,
+   "mc": -0.00373115,
+   "se": 0.00025813488,
+   "rounds": 20000000
+  },
+  {
+   "label": "6D H17 DAS LS, frischer Schuh",
+   "exact": -0.005269855,
+   "mc": -0.005245075,
+   "se": 0.00025671328,
+   "rounds": 20000000
+  },
+  {
+   "label": "1D S17 kein DAS, frischer Schuh",
+   "exact": 0.00029598943,
+   "mc": 0.000009525,
+   "se": 0.0002575876,
+   "rounds": 20000000
+  },
+  {
+   "label": "ENHC 6D S17, frischer Schuh",
+   "exact": -0.0051401217,
+   "mc": -0.005439775,
+   "se": 0.00025444158,
+   "rounds": 20000000
+  },
+  {
+   "label": "6D S17 DAS, unendliches Deck",
+   "exact": -0.0051173364,
+   "mc": -0.004842675,
+   "se": 0.00025793317,
+   "rounds": 20000000
+  }
+ ],
+ "replications": {
+  "evs": [
+   -0.004888,
+   -0.0051201,
+   -0.0045377,
+   -0.0051198,
+   -0.0042082,
+   -0.0033969
+  ],
+  "sdBetween": 0.00066489174,
+  "seWithin": 0.00051530966
+ },
+ "scenarios": [
+  {
+   "id": "A",
+   "title": "Szenario A — 6 Decks, S17, DAS, kein Surrender, Peek, 3:2, Penetration 75 %",
+   "rules": "6 Decks · S17 · BJ 3:2 · Peek · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "seed": 1001,
+   "rows": [
+    {
+     "name": "Basic Strategy (regelangepasst)",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10278443,
+      "shoes": 231898,
+      "batches": 231898,
+      "ev": -0.00399235,
+      "houseEdgePct": 0.399235,
+      "evPerRound": -0.00399235,
+      "returnPerWagered": -0.0035279108,
+      "sdPerRound": 1.1539559,
+      "seNaive": 0.00036491289,
+      "seBatch": 0.00036364237,
+      "ci95": [
+       -0.004705089,
+       -0.003279611
+      ],
+      "roundWin": 0.4336245,
+      "roundPush": 0.0876921,
+      "roundLoss": 0.4786834,
+      "handWin": 0.43547403,
+      "handPush": 0.085670855,
+      "handLoss": 0.47885511,
+      "playerBJRate": 0.0474215,
+      "dealerBJRate": 0.047434,
+      "doubleRate": 0.1038028,
+      "splitRate": 0.0278443,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15633866,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1316471,
+      "maxDrawdown": 40130,
+      "maxLossStreak": 26,
+      "totalNet": -39923.5
+     },
+     "comparison": null
+    },
+    {
+     "name": "Basic Strategy für 6D H17 DAS LS",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10278361,
+      "shoes": 231957,
+      "batches": 231957,
+      "ev": -0.004153,
+      "houseEdgePct": 0.4153,
+      "evPerRound": -0.004153,
+      "returnPerWagered": -0.0036551165,
+      "sdPerRound": 1.1596658,
+      "seNaive": 0.00036671852,
+      "seBatch": 0.00036533129,
+      "ci95": [
+       -0.0048690493,
+       -0.0034369507
+      ],
+      "roundWin": 0.4334118,
+      "roundPush": 0.0874945,
+      "roundLoss": 0.4790937,
+      "handWin": 0.43525743,
+      "handPush": 0.085484349,
+      "handLoss": 0.47925822,
+      "playerBJRate": 0.0474073,
+      "dealerBJRate": 0.047451,
+      "doubleRate": 0.1083794,
+      "splitRate": 0.0278361,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15580801,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1362155,
+      "maxDrawdown": 41662,
+      "maxLossStreak": 24,
+      "totalNet": -41530
+     },
+     "comparison": {
+      "diff": -0.00016065,
+      "se": 0.000079023389,
+      "ci95": [
+       -0.00031553584,
+       -0.000005764158
+      ],
+      "z": -2.0329424,
+      "pValue": 0.042058204,
+      "significant": true,
+      "batches": 231898,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Basic Strategy für 1 Deck S17 kein DAS",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10253693,
+      "shoes": 231492,
+      "batches": 231492,
+      "ev": -0.0046695,
+      "houseEdgePct": 0.46695,
+      "evPerRound": -0.0046695,
+      "returnPerWagered": -0.0040872232,
+      "sdPerRound": 1.1677098,
+      "seNaive": 0.00036926226,
+      "seBatch": 0.00036752351,
+      "ci95": [
+       -0.0053898461,
+       -0.0039491539
+      ],
+      "roundWin": 0.4331614,
+      "roundPush": 0.0873074,
+      "roundLoss": 0.4795312,
+      "handWin": 0.43489931,
+      "handPush": 0.085524991,
+      "handLoss": 0.4795757,
+      "playerBJRate": 0.0474455,
+      "dealerBJRate": 0.047473,
+      "doubleRate": 0.1170934,
+      "splitRate": 0.0253693,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15485972,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1424627,
+      "maxDrawdown": 46975,
+      "maxLossStreak": 26,
+      "totalNet": -46695
+     },
+     "comparison": {
+      "diff": -0.00067715,
+      "se": 0.00013403874,
+      "ci95": [
+       -0.00093986593,
+       -0.00041443407
+      ],
+      "z": -5.0518976,
+      "pValue": 4.3816961e-7,
+      "significant": true,
+      "batches": 231492,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Zusammensetzungsabhängig (2 Karten)",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10278421,
+      "shoes": 231985,
+      "batches": 231985,
+      "ev": -0.00395645,
+      "houseEdgePct": 0.395645,
+      "evPerRound": -0.00395645,
+      "returnPerWagered": -0.0034961432,
+      "sdPerRound": 1.1538737,
+      "seNaive": 0.00036488691,
+      "seBatch": 0.00036371059,
+      "ci95": [
+       -0.0046693228,
+       -0.0032435772
+      ],
+      "roundWin": 0.4335399,
+      "roundPush": 0.0878865,
+      "roundLoss": 0.4785736,
+      "handWin": 0.43539557,
+      "handPush": 0.085862605,
+      "handLoss": 0.47874182,
+      "playerBJRate": 0.0474194,
+      "dealerBJRate": 0.0474368,
+      "doubleRate": 0.1038192,
+      "splitRate": 0.0278421,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.1574487,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1316613,
+      "maxDrawdown": 39705.5,
+      "maxLossStreak": 26,
+      "totalNet": -39564.5
+     },
+     "comparison": {
+      "diff": 0.0000359,
+      "se": 0.000067110881,
+      "ci95": [
+       -0.000095637327,
+       0.00016743733
+      ],
+      "z": 0.53493561,
+      "pValue": 0.59269434,
+      "significant": false,
+      "batches": 231898,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Hi-Lo-Abweichungen (I18/Fab4), Flat Bet",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10238367,
+      "shoes": 231000,
+      "batches": 231000,
+      "ev": -0.00416955,
+      "houseEdgePct": 0.416955,
+      "evPerRound": -0.00416955,
+      "returnPerWagered": -0.0036850234,
+      "sdPerRound": 1.149953,
+      "seNaive": 0.00036364707,
+      "seBatch": 0.00036255709,
+      "ci95": [
+       -0.0048801619,
+       -0.0034589381
+      ],
+      "roundWin": 0.4336564,
+      "roundPush": 0.0881307,
+      "roundLoss": 0.4782129,
+      "handWin": 0.43585554,
+      "handPush": 0.086679057,
+      "handLoss": 0.4774654,
+      "playerBJRate": 0.0473863,
+      "dealerBJRate": 0.0475476,
+      "doubleRate": 0.1046276,
+      "splitRate": 0.0238367,
+      "surrenderRate": 0,
+      "insuranceRate": 0.0060421,
+      "bustRate": 0.14758506,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1314853,
+      "maxDrawdown": 41962.5,
+      "maxLossStreak": 22,
+      "totalNet": -41695.5
+     },
+     "comparison": {
+      "diff": -0.0001772,
+      "se": 0.00021312911,
+      "ci95": [
+       -0.00059493305,
+       0.00024053305
+      ],
+      "z": -0.83142093,
+      "pValue": 0.40573578,
+      "significant": false,
+      "batches": 231000,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Hi-Lo + I18/Fab4, Spread 1-1-2-4-6-8",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10238367,
+      "shoes": 231000,
+      "batches": 231000,
+      "ev": 0.0036127538,
+      "houseEdgePct": -0.36127538,
+      "evPerRound": 0.00526315,
+      "returnPerWagered": 0.0031639356,
+      "sdPerRound": 2.33448,
+      "seNaive": 0.00050673719,
+      "seBatch": 0.00050393433,
+      "ci95": [
+       0.0026250425,
+       0.0046004651
+      ],
+      "roundWin": 0.4336564,
+      "roundPush": 0.0881307,
+      "roundLoss": 0.4782129,
+      "handWin": 0.43585554,
+      "handPush": 0.086679057,
+      "handLoss": 0.4774654,
+      "playerBJRate": 0.0473863,
+      "dealerBJRate": 0.0475476,
+      "doubleRate": 0.1046276,
+      "splitRate": 0.0238367,
+      "surrenderRate": 0,
+      "insuranceRate": 0.0060421,
+      "bustRate": 0.14758506,
+      "avgInitialBet": 1.456825,
+      "avgWagered": 1.663482,
+      "maxDrawdown": 4430.5,
+      "maxLossStreak": 22,
+      "totalNet": 52631.5
+     },
+     "comparison": {
+      "diff": 0.0076051038,
+      "se": 0.00043003039,
+      "ci95": [
+       0.0067622442,
+       0.0084479633
+      ],
+      "z": 17.685038,
+      "pValue": 0,
+      "significant": true,
+      "batches": 231000,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Dealer imitieren",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10000000,
+      "shoes": 231441,
+      "batches": 231441,
+      "ev": -0.0571213,
+      "houseEdgePct": 5.71213,
+      "evPerRound": -0.0571213,
+      "returnPerWagered": -0.0571213,
+      "sdPerRound": 0.97753353,
+      "seNaive": 0.00030912325,
+      "seBatch": 0.00030853516,
+      "ci95": [
+       -0.057726029,
+       -0.056516571
+      ],
+      "roundWin": 0.4112869,
+      "roundPush": 0.0976936,
+      "roundLoss": 0.4910195,
+      "handWin": 0.4112869,
+      "handPush": 0.0976936,
+      "handLoss": 0.4910195,
+      "playerBJRate": 0.0473932,
+      "dealerBJRate": 0.0474638,
+      "doubleRate": 0,
+      "splitRate": 0,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.2685404,
+      "avgInitialBet": 1,
+      "avgWagered": 1,
+      "maxDrawdown": 571215.5,
+      "maxLossStreak": 28,
+      "totalNet": -571213
+     },
+     "comparison": {
+      "diff": -0.05312895,
+      "se": 0.00039942613,
+      "ci95": [
+       -0.053911825,
+       -0.052346075
+      ],
+      "z": -133.01321,
+      "pValue": 0,
+      "significant": true,
+      "batches": 231441,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Nie überkaufen",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10278683,
+      "shoes": 221439,
+      "batches": 221439,
+      "ev": -0.03940355,
+      "houseEdgePct": 3.940355,
+      "evPerRound": -0.03940355,
+      "returnPerWagered": -0.034817331,
+      "sdPerRound": 1.1646374,
+      "seNaive": 0.0003682907,
+      "seBatch": 0.00036485085,
+      "ci95": [
+       -0.040118658,
+       -0.038688442
+      ],
+      "roundWin": 0.4265818,
+      "roundPush": 0.0666641,
+      "roundLoss": 0.5067541,
+      "handWin": 0.42844506,
+      "handPush": 0.065377928,
+      "handLoss": 0.50617701,
+      "playerBJRate": 0.0474216,
+      "dealerBJRate": 0.0474204,
+      "doubleRate": 0.103854,
+      "splitRate": 0.0278683,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1317223,
+      "maxDrawdown": 394056.5,
+      "maxLossStreak": 28,
+      "totalNet": -394035.5
+     },
+     "comparison": {
+      "diff": -0.0354112,
+      "se": 0.00044558095,
+      "ci95": [
+       -0.036284539,
+       -0.034537861
+      ],
+      "z": -79.471979,
+      "pValue": 0,
+      "significant": true,
+      "batches": 221439,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Tabelle: Bild 1 (französisch)",
+     "note": "5 unlesbare/fehlende Zellen durch Engine ergänzt",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10278443,
+      "shoes": 231898,
+      "batches": 231898,
+      "ev": -0.00399235,
+      "houseEdgePct": 0.399235,
+      "evPerRound": -0.00399235,
+      "returnPerWagered": -0.0035279108,
+      "sdPerRound": 1.1539559,
+      "seNaive": 0.00036491289,
+      "seBatch": 0.00036364237,
+      "ci95": [
+       -0.004705089,
+       -0.003279611
+      ],
+      "roundWin": 0.4336245,
+      "roundPush": 0.0876921,
+      "roundLoss": 0.4786834,
+      "handWin": 0.43547403,
+      "handPush": 0.085670855,
+      "handLoss": 0.47885511,
+      "playerBJRate": 0.0474215,
+      "dealerBJRate": 0.047434,
+      "doubleRate": 0.1038028,
+      "splitRate": 0.0278443,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15633866,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1316471,
+      "maxDrawdown": 40130,
+      "maxLossStreak": 26,
+      "totalNet": -39923.5
+     },
+     "comparison": {
+      "diff": 0,
+      "se": 0,
+      "ci95": [
+       0,
+       0
+      ],
+      "z": 0,
+      "pValue": 1,
+      "significant": false,
+      "batches": 231898,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Tabelle: Bild 2 (H/S/D/P)",
+     "note": "4 unlesbare/fehlende Zellen durch Engine ergänzt",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10278443,
+      "shoes": 231898,
+      "batches": 231898,
+      "ev": -0.00399235,
+      "houseEdgePct": 0.399235,
+      "evPerRound": -0.00399235,
+      "returnPerWagered": -0.0035279108,
+      "sdPerRound": 1.1539559,
+      "seNaive": 0.00036491289,
+      "seBatch": 0.00036364237,
+      "ci95": [
+       -0.004705089,
+       -0.003279611
+      ],
+      "roundWin": 0.4336245,
+      "roundPush": 0.0876921,
+      "roundLoss": 0.4786834,
+      "handWin": 0.43547403,
+      "handPush": 0.085670855,
+      "handLoss": 0.47885511,
+      "playerBJRate": 0.0474215,
+      "dealerBJRate": 0.047434,
+      "doubleRate": 0.1038028,
+      "splitRate": 0.0278443,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15633866,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1316471,
+      "maxDrawdown": 40130,
+      "maxLossStreak": 26,
+      "totalNet": -39923.5
+     },
+     "comparison": {
+      "diff": 0,
+      "se": 0,
+      "ci95": [
+       0,
+       0
+      ],
+      "z": 0,
+      "pValue": 1,
+      "significant": false,
+      "batches": 231898,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Tabelle: Bild 3 (Strategy Card)",
+     "note": "1 unlesbare/fehlende Zellen durch Engine ergänzt",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10278443,
+      "shoes": 231898,
+      "batches": 231898,
+      "ev": -0.00399235,
+      "houseEdgePct": 0.399235,
+      "evPerRound": -0.00399235,
+      "returnPerWagered": -0.0035279108,
+      "sdPerRound": 1.1539559,
+      "seNaive": 0.00036491289,
+      "seBatch": 0.00036364237,
+      "ci95": [
+       -0.004705089,
+       -0.003279611
+      ],
+      "roundWin": 0.4336245,
+      "roundPush": 0.0876921,
+      "roundLoss": 0.4786834,
+      "handWin": 0.43547403,
+      "handPush": 0.085670855,
+      "handLoss": 0.47885511,
+      "playerBJRate": 0.0474215,
+      "dealerBJRate": 0.047434,
+      "doubleRate": 0.1038028,
+      "splitRate": 0.0278443,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15633866,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1316471,
+      "maxDrawdown": 40130,
+      "maxLossStreak": 26,
+      "totalNet": -39923.5
+     },
+     "comparison": {
+      "diff": 0,
+      "se": 0,
+      "ci95": [
+       0,
+       0
+      ],
+      "z": 0,
+      "pValue": 1,
+      "significant": false,
+      "batches": 231898,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Tabelle: Bild 5 (blaue Karte)",
+     "note": "14 unlesbare/fehlende Zellen durch Engine ergänzt",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10278443,
+      "shoes": 231898,
+      "batches": 231898,
+      "ev": -0.00399235,
+      "houseEdgePct": 0.399235,
+      "evPerRound": -0.00399235,
+      "returnPerWagered": -0.0035279108,
+      "sdPerRound": 1.1539559,
+      "seNaive": 0.00036491289,
+      "seBatch": 0.00036364237,
+      "ci95": [
+       -0.004705089,
+       -0.003279611
+      ],
+      "roundWin": 0.4336245,
+      "roundPush": 0.0876921,
+      "roundLoss": 0.4786834,
+      "handWin": 0.43547403,
+      "handPush": 0.085670855,
+      "handLoss": 0.47885511,
+      "playerBJRate": 0.0474215,
+      "dealerBJRate": 0.047434,
+      "doubleRate": 0.1038028,
+      "splitRate": 0.0278443,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15633866,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1316471,
+      "maxDrawdown": 40130,
+      "maxLossStreak": 26,
+      "totalNet": -39923.5
+     },
+     "comparison": {
+      "diff": 0,
+      "se": 0,
+      "ci95": [
+       0,
+       0
+      ],
+      "z": 0,
+      "pValue": 1,
+      "significant": false,
+      "batches": 231898,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Tabelle: Wizard 4–8 Decks S17",
+     "note": "0 unlesbare/fehlende Zellen durch Engine ergänzt",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10278443,
+      "shoes": 231898,
+      "batches": 231898,
+      "ev": -0.00399235,
+      "houseEdgePct": 0.399235,
+      "evPerRound": -0.00399235,
+      "returnPerWagered": -0.0035279108,
+      "sdPerRound": 1.1539559,
+      "seNaive": 0.00036491289,
+      "seBatch": 0.00036364237,
+      "ci95": [
+       -0.004705089,
+       -0.003279611
+      ],
+      "roundWin": 0.4336245,
+      "roundPush": 0.0876921,
+      "roundLoss": 0.4786834,
+      "handWin": 0.43547403,
+      "handPush": 0.085670855,
+      "handLoss": 0.47885511,
+      "playerBJRate": 0.0474215,
+      "dealerBJRate": 0.047434,
+      "doubleRate": 0.1038028,
+      "splitRate": 0.0278443,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15633866,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1316471,
+      "maxDrawdown": 40130,
+      "maxLossStreak": 26,
+      "totalNet": -39923.5
+     },
+     "comparison": {
+      "diff": 0,
+      "se": 0,
+      "ci95": [
+       0,
+       0
+      ],
+      "z": 0,
+      "pValue": 1,
+      "significant": false,
+      "batches": 231898,
+      "method": "paired-batches"
+     }
+    }
+   ],
+   "exactRef": {
+    "cdOptimal": -0.004025676,
+    "tdBasic": -0.0040284373
+   }
+  },
+  {
+   "id": "B",
+   "title": "Szenario B — 6 Decks, H17, DAS, Late Surrender, Peek, 3:2 (Regeln von Bild 4)",
+   "rules": "6 Decks · H17 · BJ 3:2 · Peek · Double beliebig · DAS · Late Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "seed": 2002,
+   "rows": [
+    {
+     "name": "Basic Strategy (regelangepasst)",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10275509,
+      "shoes": 230045,
+      "batches": 230045,
+      "ev": -0.00483685,
+      "houseEdgePct": 0.483685,
+      "evPerRound": -0.00483685,
+      "returnPerWagered": -0.004257777,
+      "sdPerRound": 1.1446609,
+      "seNaive": 0.00036197356,
+      "seBatch": 0.00036061897,
+      "ci95": [
+       -0.0055436632,
+       -0.0041300368
+      ],
+      "roundWin": 0.4219074,
+      "roundPush": 0.0838693,
+      "roundLoss": 0.4942233,
+      "handWin": 0.42411991,
+      "handPush": 0.081933849,
+      "handLoss": 0.49394624,
+      "playerBJRate": 0.047521,
+      "dealerBJRate": 0.0474743,
+      "doubleRate": 0.1084527,
+      "splitRate": 0.0275509,
+      "surrenderRate": 0.0519359,
+      "insuranceRate": 0,
+      "bustRate": 0.12739748,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1360036,
+      "maxDrawdown": 48396,
+      "maxLossStreak": 36,
+      "totalNet": -48368.5
+     },
+     "comparison": null
+    },
+    {
+     "name": "Basic Strategy für 6D S17 DAS ohne Surrender",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10278591,
+      "shoes": 232803,
+      "batches": 232803,
+      "ev": -0.00550435,
+      "houseEdgePct": 0.550435,
+      "evPerRound": -0.00550435,
+      "returnPerWagered": -0.0048632334,
+      "sdPerRound": 1.1547076,
+      "seNaive": 0.00036515059,
+      "seBatch": 0.00036423131,
+      "ci95": [
+       -0.0062182434,
+       -0.0047904566
+      ],
+      "roundWin": 0.4329772,
+      "roundPush": 0.0874263,
+      "roundLoss": 0.4795965,
+      "handWin": 0.43486077,
+      "handPush": 0.085390011,
+      "handLoss": 0.47974922,
+      "playerBJRate": 0.0475136,
+      "dealerBJRate": 0.0474338,
+      "doubleRate": 0.1039702,
+      "splitRate": 0.0278591,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15624106,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1318293,
+      "maxDrawdown": 55250.5,
+      "maxLossStreak": 22,
+      "totalNet": -55043.5
+     },
+     "comparison": {
+      "diff": -0.0006675,
+      "se": 0.00028144666,
+      "ci95": [
+       -0.0012191354,
+       -0.00011586455
+      ],
+      "z": -2.371675,
+      "pValue": 0.017707632,
+      "significant": true,
+      "batches": 230045,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Zusammensetzungsabhängig (2 Karten)",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10275597,
+      "shoes": 230225,
+      "batches": 230225,
+      "ev": -0.00493115,
+      "houseEdgePct": 0.493115,
+      "evPerRound": -0.00493115,
+      "returnPerWagered": -0.0043408385,
+      "sdPerRound": 1.1456555,
+      "seNaive": 0.00036228808,
+      "seBatch": 0.00036114046,
+      "ci95": [
+       -0.0056389853,
+       -0.0042233147
+      ],
+      "roundWin": 0.4226044,
+      "roundPush": 0.0840942,
+      "roundLoss": 0.4933014,
+      "handWin": 0.42479089,
+      "handPush": 0.082148512,
+      "handLoss": 0.4930606,
+      "playerBJRate": 0.0475247,
+      "dealerBJRate": 0.0474901,
+      "doubleRate": 0.1084305,
+      "splitRate": 0.0275597,
+      "surrenderRate": 0.0485391,
+      "insuranceRate": 0,
+      "bustRate": 0.12930159,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1359902,
+      "maxDrawdown": 49427,
+      "maxLossStreak": 36,
+      "totalNet": -49311.5
+     },
+     "comparison": {
+      "diff": -0.0000943,
+      "se": 0.000078598548,
+      "ci95": [
+       -0.00024835315,
+       0.000059753154
+      ],
+      "z": -1.1997677,
+      "pValue": 0.2302297,
+      "significant": false,
+      "batches": 230045,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Tabelle: Bild 4 (4/6/8 Decks H17)",
+     "note": "0 unlesbare/fehlende Zellen durch Engine ergänzt",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10275509,
+      "shoes": 230045,
+      "batches": 230045,
+      "ev": -0.00483685,
+      "houseEdgePct": 0.483685,
+      "evPerRound": -0.00483685,
+      "returnPerWagered": -0.004257777,
+      "sdPerRound": 1.1446609,
+      "seNaive": 0.00036197356,
+      "seBatch": 0.00036061897,
+      "ci95": [
+       -0.0055436632,
+       -0.0041300368
+      ],
+      "roundWin": 0.4219074,
+      "roundPush": 0.0838693,
+      "roundLoss": 0.4942233,
+      "handWin": 0.42411991,
+      "handPush": 0.081933849,
+      "handLoss": 0.49394624,
+      "playerBJRate": 0.047521,
+      "dealerBJRate": 0.0474743,
+      "doubleRate": 0.1084527,
+      "splitRate": 0.0275509,
+      "surrenderRate": 0.0519359,
+      "insuranceRate": 0,
+      "bustRate": 0.12739748,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1360036,
+      "maxDrawdown": 48396,
+      "maxLossStreak": 36,
+      "totalNet": -48368.5
+     },
+     "comparison": {
+      "diff": 0,
+      "se": 0,
+      "ci95": [
+       0,
+       0
+      ],
+      "z": 0,
+      "pValue": 1,
+      "significant": false,
+      "batches": 230045,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Tabelle: Wizard 4–8 Decks H17",
+     "note": "0 unlesbare/fehlende Zellen durch Engine ergänzt",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10275509,
+      "shoes": 230045,
+      "batches": 230045,
+      "ev": -0.00483685,
+      "houseEdgePct": 0.483685,
+      "evPerRound": -0.00483685,
+      "returnPerWagered": -0.004257777,
+      "sdPerRound": 1.1446609,
+      "seNaive": 0.00036197356,
+      "seBatch": 0.00036061897,
+      "ci95": [
+       -0.0055436632,
+       -0.0041300368
+      ],
+      "roundWin": 0.4219074,
+      "roundPush": 0.0838693,
+      "roundLoss": 0.4942233,
+      "handWin": 0.42411991,
+      "handPush": 0.081933849,
+      "handLoss": 0.49394624,
+      "playerBJRate": 0.047521,
+      "dealerBJRate": 0.0474743,
+      "doubleRate": 0.1084527,
+      "splitRate": 0.0275509,
+      "surrenderRate": 0.0519359,
+      "insuranceRate": 0,
+      "bustRate": 0.12739748,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1360036,
+      "maxDrawdown": 48396,
+      "maxLossStreak": 36,
+      "totalNet": -48368.5
+     },
+     "comparison": {
+      "diff": 0,
+      "se": 0,
+      "ci95": [
+       0,
+       0
+      ],
+      "z": 0,
+      "pValue": 1,
+      "significant": false,
+      "batches": 230045,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Tabelle: Bild 2 (H/S/D/P)",
+     "note": "4 unlesbare/fehlende Zellen durch Engine ergänzt",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10278903,
+      "shoes": 232870,
+      "batches": 232870,
+      "ev": -0.00554005,
+      "houseEdgePct": 0.554005,
+      "evPerRound": -0.00554005,
+      "returnPerWagered": -0.0048748319,
+      "sdPerRound": 1.1604167,
+      "seNaive": 0.00036695598,
+      "seBatch": 0.00036601088,
+      "ci95": [
+       -0.0062574313,
+       -0.0048226687
+      ],
+      "roundWin": 0.4328478,
+      "roundPush": 0.0872719,
+      "roundLoss": 0.4798803,
+      "handWin": 0.43471477,
+      "handPush": 0.085250245,
+      "handLoss": 0.48003498,
+      "playerBJRate": 0.0474976,
+      "dealerBJRate": 0.0474377,
+      "doubleRate": 0.1085694,
+      "splitRate": 0.0278903,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15571924,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1364597,
+      "maxDrawdown": 55721,
+      "maxLossStreak": 22,
+      "totalNet": -55400.5
+     },
+     "comparison": {
+      "diff": -0.0007032,
+      "se": 0.00027648984,
+      "ci95": [
+       -0.0012451201,
+       -0.00016127992
+      ],
+      "z": -2.5433123,
+      "pValue": 0.01098075,
+      "significant": true,
+      "batches": 230045,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Hi-Lo-Abweichungen (I18/Fab4), Flat Bet",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10234992,
+      "shoes": 230043,
+      "batches": 230043,
+      "ev": -0.00473045,
+      "houseEdgePct": 0.473045,
+      "evPerRound": -0.00473045,
+      "returnPerWagered": -0.0041668608,
+      "sdPerRound": 1.1428053,
+      "seNaive": 0.00036138676,
+      "seBatch": 0.00035985948,
+      "ci95": [
+       -0.0054357746,
+       -0.0040251254
+      ],
+      "roundWin": 0.4241127,
+      "roundPush": 0.0857863,
+      "roundLoss": 0.490101,
+      "handWin": 0.42656399,
+      "handPush": 0.084283896,
+      "handLoss": 0.48915212,
+      "playerBJRate": 0.0475051,
+      "dealerBJRate": 0.0475023,
+      "doubleRate": 0.1086664,
+      "splitRate": 0.0234992,
+      "surrenderRate": 0.0411637,
+      "insuranceRate": 0.006179,
+      "bustRate": 0.13026146,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1352551,
+      "maxDrawdown": 47358,
+      "maxLossStreak": 30,
+      "totalNet": -47304.5
+     },
+     "comparison": {
+      "diff": 0.0001064,
+      "se": 0.00023369838,
+      "ci95": [
+       -0.00035164882,
+       0.00056444882
+      ],
+      "z": 0.45528771,
+      "pValue": 0.64890231,
+      "significant": false,
+      "batches": 230043,
+      "method": "paired-batches"
+     }
+    }
+   ],
+   "exactRef": {
+    "cdOptimal": -0.0052690504,
+    "tdBasic": -0.005269855
+   }
+  },
+  {
+   "id": "C",
+   "title": "Szenario C — 1 Deck, S17, kein DAS, Peek, 3:2, Penetration 65 %",
+   "rules": "1 Deck · S17 · BJ 3:2 · Peek · Double beliebig · kein DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "seed": 3003,
+   "rows": [
+    {
+     "name": "Basic Strategy (regelangepasst)",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10191448,
+      "shoes": 1543339,
+      "batches": 1543339,
+      "ev": -0.0011717,
+      "houseEdgePct": 0.11717,
+      "evPerRound": -0.0011717,
+      "returnPerWagered": -0.0010384278,
+      "sdPerRound": 1.1480227,
+      "seNaive": 0.00036303665,
+      "seBatch": 0.00036219778,
+      "ci95": [
+       -0.0018816077,
+       -0.00046179235
+      ],
+      "roundWin": 0.4351179,
+      "roundPush": 0.0853893,
+      "roundLoss": 0.4794928,
+      "handWin": 0.43725445,
+      "handPush": 0.08327482,
+      "handLoss": 0.47947073,
+      "playerBJRate": 0.0478981,
+      "dealerBJRate": 0.047871,
+      "doubleRate": 0.1091956,
+      "splitRate": 0.0191448,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15606389,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1283404,
+      "maxDrawdown": 12124,
+      "maxLossStreak": 28,
+      "totalNet": -11717
+     },
+     "comparison": null
+    },
+    {
+     "name": "Basic Strategy für 6D S17 DAS",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10207354,
+      "shoes": 1545034,
+      "batches": 1545034,
+      "ev": -0.00147725,
+      "houseEdgePct": 0.147725,
+      "evPerRound": -0.00147725,
+      "returnPerWagered": -0.0013231306,
+      "sdPerRound": 1.1330416,
+      "seNaive": 0.0003582992,
+      "seBatch": 0.00035757065,
+      "ci95": [
+       -0.0021780885,
+       -0.00077641153
+      ],
+      "roundWin": 0.4353243,
+      "roundPush": 0.0857479,
+      "roundLoss": 0.4789278,
+      "handWin": 0.43760587,
+      "handPush": 0.083409961,
+      "handLoss": 0.47898417,
+      "playerBJRate": 0.0479156,
+      "dealerBJRate": 0.047855,
+      "doubleRate": 0.0957455,
+      "splitRate": 0.0207354,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.1574456,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1164809,
+      "maxDrawdown": 15091,
+      "maxLossStreak": 28,
+      "totalNet": -14772.5
+     },
+     "comparison": {
+      "diff": -0.00030555,
+      "se": 0.00008350591,
+      "ci95": [
+       -0.00046922158,
+       -0.00014187842
+      ],
+      "z": -3.6590224,
+      "pValue": 0.00025324536,
+      "significant": true,
+      "batches": 1543339,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Zusammensetzungsabhängig (2 Karten)",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10191480,
+      "shoes": 1544944,
+      "batches": 1544944,
+      "ev": -0.0008455,
+      "houseEdgePct": 0.08455,
+      "evPerRound": -0.0008455,
+      "returnPerWagered": -0.00075045849,
+      "sdPerRound": 1.1456972,
+      "seNaive": 0.00036230127,
+      "seBatch": 0.00036150106,
+      "ci95": [
+       -0.0015540421,
+       -0.00013695792
+      ],
+      "roundWin": 0.4350545,
+      "roundPush": 0.0859346,
+      "roundLoss": 0.4790109,
+      "handWin": 0.4371946,
+      "handPush": 0.083810006,
+      "handLoss": 0.4789954,
+      "playerBJRate": 0.0479187,
+      "dealerBJRate": 0.047856,
+      "doubleRate": 0.1074966,
+      "splitRate": 0.019148,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15922575,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1266446,
+      "maxDrawdown": 9226,
+      "maxLossStreak": 28,
+      "totalNet": -8455
+     },
+     "comparison": {
+      "diff": 0.0003262,
+      "se": 0.000088337591,
+      "ci95": [
+       0.00015305832,
+       0.00049934168
+      ],
+      "z": 3.6926522,
+      "pValue": 0.00022198922,
+      "significant": true,
+      "batches": 1543339,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Tabelle: Bild 5 (blaue Karte)",
+     "note": "14 unlesbare/fehlende Zellen durch Engine ergänzt",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10191436,
+      "shoes": 1543559,
+      "batches": 1543559,
+      "ev": -0.0012244,
+      "houseEdgePct": 0.12244,
+      "evPerRound": -0.0012244,
+      "returnPerWagered": -0.001091087,
+      "sdPerRound": 1.1404435,
+      "seNaive": 0.0003606399,
+      "seBatch": 0.00035981158,
+      "ci95": [
+       -0.0019296307,
+       -0.00051916931
+      ],
+      "roundWin": 0.4352566,
+      "roundPush": 0.085445,
+      "roundLoss": 0.4792984,
+      "handWin": 0.43739135,
+      "handPush": 0.083329768,
+      "handLoss": 0.47927888,
+      "playerBJRate": 0.0478999,
+      "dealerBJRate": 0.0478703,
+      "doubleRate": 0.1030401,
+      "splitRate": 0.0191436,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15613688,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1221837,
+      "maxDrawdown": 12619,
+      "maxLossStreak": 28,
+      "totalNet": -12244
+     },
+     "comparison": {
+      "diff": -0.0000527,
+      "se": 0.000036085849,
+      "ci95": [
+       -0.00012342826,
+       0.000018028264
+      ],
+      "z": -1.4604063,
+      "pValue": 0.14417853,
+      "significant": false,
+      "batches": 1543339,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Dealer imitieren",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10000000,
+      "shoes": 1546467,
+      "batches": 1546467,
+      "ev": -0.05658895,
+      "houseEdgePct": 5.658895,
+      "evPerRound": -0.05658895,
+      "returnPerWagered": -0.05658895,
+      "sdPerRound": 0.9796172,
+      "seNaive": 0.00030978216,
+      "seBatch": 0.00030927646,
+      "ci95": [
+       -0.057195132,
+       -0.055982768
+      ],
+      "roundWin": 0.4127326,
+      "roundPush": 0.0948607,
+      "roundLoss": 0.4924067,
+      "handWin": 0.4127326,
+      "handPush": 0.0948607,
+      "handLoss": 0.4924067,
+      "playerBJRate": 0.0478804,
+      "dealerBJRate": 0.0477627,
+      "doubleRate": 0,
+      "splitRate": 0,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.2695037,
+      "avgInitialBet": 1,
+      "avgWagered": 1,
+      "maxDrawdown": 565889.5,
+      "maxLossStreak": 26,
+      "totalNet": -565889.5
+     },
+     "comparison": {
+      "diff": -0.05541725,
+      "se": 0.0003425056,
+      "ci95": [
+       -0.056088561,
+       -0.054745939
+      ],
+      "z": -161.79955,
+      "pValue": 0,
+      "significant": true,
+      "batches": 1543339,
+      "method": "paired-batches"
+     }
+    }
+   ],
+   "exactRef": {
+    "cdOptimal": 0.00042453638,
+    "tdBasic": 0.00029598943
+   }
+  },
+  {
+   "id": "D",
+   "title": "Szenario D — European No-Hole-Card, 6 Decks, S17, DAS, Verlust aller Einsätze bei Dealer-BJ",
+   "rules": "6 Decks · S17 · BJ 3:2 · ENHC · Double beliebig · DAS · kein Surrender · Split bis 4 Hände · kein RSA · 1 Karte auf Split-Asse",
+   "seed": 4004,
+   "rows": [
+    {
+     "name": "Basic Strategy (regelangepasst)",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10255284,
+      "shoes": 233789,
+      "batches": 233789,
+      "ev": -0.0049836,
+      "houseEdgePct": 0.49836,
+      "evPerRound": -0.0049836,
+      "returnPerWagered": -0.0044668502,
+      "sdPerRound": 1.1353852,
+      "seNaive": 0.00035904033,
+      "seBatch": 0.00035888541,
+      "ci95": [
+       -0.0056870154,
+       -0.0042801846
+      ],
+      "roundWin": 0.4335605,
+      "roundPush": 0.0877286,
+      "roundLoss": 0.4787109,
+      "handWin": 0.43548292,
+      "handPush": 0.085805912,
+      "handLoss": 0.47871117,
+      "playerBJRate": 0.0474662,
+      "dealerBJRate": 0.0474894,
+      "doubleRate": 0.0901571,
+      "splitRate": 0.0255284,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15996524,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1156855,
+      "maxDrawdown": 49906.5,
+      "maxLossStreak": 25,
+      "totalNet": -49836
+     },
+     "comparison": null
+    },
+    {
+     "name": "Basic Strategy für amerikanische Peek-Regeln (6D S17 DAS)",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10284663,
+      "shoes": 233838,
+      "batches": 233838,
+      "ev": -0.0056179,
+      "houseEdgePct": 0.56179,
+      "evPerRound": -0.0056179,
+      "returnPerWagered": -0.0049557022,
+      "sdPerRound": 1.1565464,
+      "seNaive": 0.00036573208,
+      "seBatch": 0.00036555807,
+      "ci95": [
+       -0.0063343938,
+       -0.0049014062
+      ],
+      "roundWin": 0.4336532,
+      "roundPush": 0.0876645,
+      "roundLoss": 0.4786823,
+      "handWin": 0.43530576,
+      "handPush": 0.085561481,
+      "handLoss": 0.47913276,
+      "playerBJRate": 0.047437,
+      "dealerBJRate": 0.0475236,
+      "doubleRate": 0.1051571,
+      "splitRate": 0.0284663,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15626365,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1336234,
+      "maxDrawdown": 56274.5,
+      "maxLossStreak": 25,
+      "totalNet": -56179
+     },
+     "comparison": {
+      "diff": -0.0006343,
+      "se": 0.00012594372,
+      "ci95": [
+       -0.00088114969,
+       -0.00038745031
+      ],
+      "z": -5.0363767,
+      "pValue": 4.7520393e-7,
+      "significant": true,
+      "batches": 233789,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Zusammensetzungsabhängig (2 Karten)",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10255303,
+      "shoes": 233874,
+      "batches": 233874,
+      "ev": -0.0049765,
+      "houseEdgePct": 0.49765,
+      "evPerRound": -0.0049765,
+      "returnPerWagered": -0.0044604952,
+      "sdPerRound": 1.1353115,
+      "seNaive": 0.00035901701,
+      "seBatch": 0.00035865342,
+      "ci95": [
+       -0.0056794607,
+       -0.0042735393
+      ],
+      "roundWin": 0.433468,
+      "roundPush": 0.0878935,
+      "roundLoss": 0.4786385,
+      "handWin": 0.43539455,
+      "handPush": 0.085963915,
+      "handLoss": 0.47864154,
+      "playerBJRate": 0.0474663,
+      "dealerBJRate": 0.0474821,
+      "doubleRate": 0.090153,
+      "splitRate": 0.0255303,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.16105131,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1156833,
+      "maxDrawdown": 49862,
+      "maxLossStreak": 25,
+      "totalNet": -49765
+     },
+     "comparison": {
+      "diff": 0.0000071,
+      "se": 0.000064827256,
+      "ci95": [
+       -0.00011996142,
+       0.00013416142
+      ],
+      "z": 0.10952184,
+      "pValue": 0.9127885,
+      "significant": false,
+      "batches": 233789,
+      "method": "paired-batches"
+     }
+    },
+    {
+     "name": "Tabelle: Bild 1 (französisch)",
+     "note": "5 unlesbare/fehlende Zellen durch Engine ergänzt",
+     "summary": {
+      "rounds": 10000000,
+      "hands": 10255284,
+      "shoes": 233789,
+      "batches": 233789,
+      "ev": -0.0049836,
+      "houseEdgePct": 0.49836,
+      "evPerRound": -0.0049836,
+      "returnPerWagered": -0.0044668502,
+      "sdPerRound": 1.1353852,
+      "seNaive": 0.00035904033,
+      "seBatch": 0.00035888541,
+      "ci95": [
+       -0.0056870154,
+       -0.0042801846
+      ],
+      "roundWin": 0.4335605,
+      "roundPush": 0.0877286,
+      "roundLoss": 0.4787109,
+      "handWin": 0.43548292,
+      "handPush": 0.085805912,
+      "handLoss": 0.47871117,
+      "playerBJRate": 0.0474662,
+      "dealerBJRate": 0.0474894,
+      "doubleRate": 0.0901571,
+      "splitRate": 0.0255284,
+      "surrenderRate": 0,
+      "insuranceRate": 0,
+      "bustRate": 0.15996524,
+      "avgInitialBet": 1,
+      "avgWagered": 1.1156855,
+      "maxDrawdown": 49906.5,
+      "maxLossStreak": 25,
+      "totalNet": -49836
+     },
+     "comparison": {
+      "diff": 0,
+      "se": 0,
+      "ci95": [
+       0,
+       0
+      ],
+      "z": 0,
+      "pValue": 1,
+      "significant": false,
+      "batches": 233789,
+      "method": "paired-batches"
+     }
+    }
+   ],
+   "exactRef": {
+    "cdOptimal": -0.0051373604,
+    "tdBasic": -0.0051401217
+   }
+  }
+ ],
+ "betting": {
+  "config": {
+   "bankroll": 1000,
+   "baseBet": 10,
+   "tableMin": 10,
+   "tableMax": 1000,
+   "sessions": 10000,
+   "handsPerSession": 300,
+   "percent": 2,
+   "paroliSteps": 3,
+   "customSequence": [
+    1,
+    2,
+    3,
+    5,
+    8
+   ],
+   "kellyFraction": 0.5
+  },
+  "systems": [
+   {
+    "id": "flat",
+    "name": "Flat Betting",
+    "mean": 985.258,
+    "median": 985,
+    "p5": 655,
+    "p25": 850,
+    "p75": 1120,
+    "p95": 1315,
+    "ruinProb": 0,
+    "aheadProb": 0.4661,
+    "meanWagered": 3395.123,
+    "evPerWagered": -0.0043421107,
+    "evPerWageredSE": 0.00059050842,
+    "meanMaxDrawdown": 242.8645,
+    "meanLongestLossStreak": 7.9328,
+    "meanHandsPlayed": 300,
+    "avgBet": 10,
+    "maxBetSeen": 10,
+    "tableLimitHits": 0
+   },
+   {
+    "id": "martingale",
+    "name": "Martingale",
+    "mean": 1029.9682,
+    "median": 0,
+    "p5": 0,
+    "p25": 0,
+    "p75": 2540,
+    "p95": 3405,
+    "ruinProb": 0.6118,
+    "aheadProb": 0.3729,
+    "meanWagered": 8128.1472,
+    "evPerWagered": -0.0010395819,
+    "evPerWageredSE": 0.0017479329,
+    "meanMaxDrawdown": 1337.8124,
+    "meanLongestLossStreak": 6.9774,
+    "meanHandsPlayed": 181.1643,
+    "avgBet": 39.642467,
+    "maxBetSeen": 1000,
+    "tableLimitHits": 5807
+   },
+   {
+    "id": "paroli",
+    "name": "Paroli (Reverse Martingale)",
+    "mean": 973.493,
+    "median": 965,
+    "p5": 340,
+    "p25": 700,
+    "p75": 1240,
+    "p95": 1630,
+    "ruinProb": 0.0065,
+    "aheadProb": 0.4596,
+    "meanWagered": 5680.375,
+    "evPerWagered": -0.0046719627,
+    "evPerWageredSE": 0.00069567659,
+    "meanMaxDrawdown": 466.211,
+    "meanLongestLossStreak": 7.9317,
+    "meanHandsPlayed": 299.7521,
+    "avgBet": 16.74482,
+    "maxBetSeen": 40,
+    "tableLimitHits": 0
+   },
+   {
+    "id": "fibonacci",
+    "name": "Fibonacci",
+    "mean": 1009.739,
+    "median": 1375,
+    "p5": 0,
+    "p25": 0,
+    "p75": 1865,
+    "p95": 2300,
+    "ruinProb": 0.449,
+    "aheadProb": 0.5357,
+    "meanWagered": 7238.3764,
+    "evPerWagered": -0.0013178715,
+    "evPerWageredSE": 0.001360937,
+    "meanMaxDrawdown": 944.1595,
+    "meanLongestLossStreak": 7.4262,
+    "meanHandsPlayed": 223.1269,
+    "avgBet": 28.676501,
+    "maxBetSeen": 1000,
+    "tableLimitHits": 50
+   },
+   {
+    "id": "dalembert",
+    "name": "D'Alembert",
+    "mean": 981.08756,
+    "median": 0,
+    "p5": 0,
+    "p25": 0,
+    "p75": 2365,
+    "p95": 3690.25,
+    "ruinProb": 0.6465,
+    "aheadProb": 0.3361,
+    "meanWagered": 16316.974,
+    "evPerWagered": -0.0019341477,
+    "evPerWageredSE": 0.00089531986,
+    "meanMaxDrawdown": 1469.3947,
+    "meanLongestLossStreak": 7.1489,
+    "meanHandsPlayed": 187.7079,
+    "avgBet": 76.79687,
+    "maxBetSeen": 320,
+    "tableLimitHits": 0
+   },
+   {
+    "id": "percent",
+    "name": "Prozentualer Einsatz",
+    "mean": 971.52274,
+    "median": 898.34125,
+    "p5": 467.48241,
+    "p25": 683.69444,
+    "p75": 1176.6689,
+    "p95": 1730.3398,
+    "ruinProb": 0,
+    "aheadProb": 0.393,
+    "meanWagered": 6690.2887,
+    "evPerWagered": -0.0042565074,
+    "evPerWageredSE": 0.00061714772,
+    "meanMaxDrawdown": 484.86714,
+    "meanLongestLossStreak": 7.9328,
+    "meanHandsPlayed": 300,
+    "avgBet": 19.704487,
+    "maxBetSeen": 107.66607,
+    "tableLimitHits": 0
+   },
+   {
+    "id": "custom",
+    "name": "Eigene Progression",
+    "mean": 973.6075,
+    "median": 1020,
+    "p5": 0,
+    "p25": 565,
+    "p75": 1415,
+    "p95": 1880,
+    "ruinProb": 0.1421,
+    "aheadProb": 0.5118,
+    "meanWagered": 7362.2155,
+    "evPerWagered": -0.0037528106,
+    "evPerWageredSE": 0.00080277112,
+    "meanMaxDrawdown": 695.30475,
+    "meanLongestLossStreak": 7.8537,
+    "meanHandsPlayed": 283.0181,
+    "avgBet": 22.98312,
+    "maxBetSeen": 80,
+    "tableLimitHits": 0
+   }
+  ],
+  "serial": {
+   "rows": [
+    {
+     "label": "Ergebnisfolge 1 (Seed 5005, 3.000.000 Runden)",
+     "r": {
+      "afterLoss": -0.0033428977,
+      "afterWin": -0.0066161662,
+      "afterPush": -0.0050883527,
+      "diff": 0.0032732685,
+      "se": 0.0013967805,
+      "p": 0.019106902,
+      "n": 2999999
+     }
+    },
+    {
+     "label": "Ergebnisfolge 2 (Seed 5007, 3.000.000 Runden)",
+     "r": {
+      "afterLoss": -0.004259447,
+      "afterWin": -0.0061246955,
+      "afterPush": -0.0037025387,
+      "diff": 0.0018652484,
+      "se": 0.0013969995,
+      "p": 0.18181695,
+      "n": 2999999
+     }
+    },
+    {
+     "label": "Zusatzlauf 1 (Seed 6001, 10.000.000 Runden)",
+     "r": {
+      "afterLoss": -0.0043799158,
+      "afterWin": -0.0032854656,
+      "afterPush": -0.0057392071,
+      "diff": -0.0010944503,
+      "se": 0.0007653296,
+      "p": 0.15270627,
+      "n": 9999999
+     }
+    },
+    {
+     "label": "Zusatzlauf 2 (Seed 6002, 10.000.000 Runden)",
+     "r": {
+      "afterLoss": -0.0044462546,
+      "afterWin": -0.0039177431,
+      "afterPush": -0.0028819184,
+      "diff": -0.0005285115,
+      "se": 0.00076503929,
+      "p": 0.48967272,
+      "n": 9999999
+     }
+    },
+    {
+     "label": "Zusatzlauf 3 (Seed 6003, 10.000.000 Runden)",
+     "r": {
+      "afterLoss": -0.0041161195,
+      "afterWin": -0.0044868656,
+      "afterPush": -0.0046208689,
+      "diff": 0.00037074604,
+      "se": 0.00076528079,
+      "p": 0.62806121,
+      "n": 9999999
+     }
+    }
+   ],
+   "pooled": {
+    "afterLoss": -0.0043141033,
+    "afterWin": -0.0038966669,
+    "afterPush": -0.0044148466,
+    "diff": -0.0004174364,
+    "se": 0.00044179801,
+    "p": 0.34473134,
+    "n": 29999997
+   }
+  },
+  "kelly": {
+   "a": -0.0048780837,
+   "b": 0.0057665243,
+   "n": 3000000,
+   "variance": 1.3236395
+  },
+  "kellyResult": {
+   "mean": 10041.098,
+   "ruin": 0,
+   "evPerWagered": 0.0065238153,
+   "vsFlat": {
+    "diff": 0.010958379,
+    "se": 0.0007379692,
+    "z": 14.849372,
+    "pValue": 0
+   }
+  }
+ },
+ "situations": [
+  {
+   "label": "16 (10,6) gegen 10, S17",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": -0.54095444,
+     "win": 0.22952278,
+     "push": 0,
+     "lose": 0.77047722
+    },
+    {
+     "action": "hit",
+     "ev": -0.53467556,
+     "win": 0.20274461,
+     "push": 0.059835212,
+     "lose": 0.73742018
+    },
+    {
+     "action": "double",
+     "ev": -1.0693511,
+     "win": 0.20274461,
+     "push": 0.059835212,
+     "lose": 0.73742018
+    }
+   ]
+  },
+  {
+   "label": "16 (10,6) gegen 10, H17 + LS",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": -0.54095444,
+     "win": 0.22952278,
+     "push": 0,
+     "lose": 0.77047722
+    },
+    {
+     "action": "hit",
+     "ev": -0.53467556,
+     "win": 0.20274461,
+     "push": 0.059835212,
+     "lose": 0.73742018
+    },
+    {
+     "action": "double",
+     "ev": -1.0693511,
+     "win": 0.20274461,
+     "push": 0.059835212,
+     "lose": 0.73742018
+    },
+    {
+     "action": "surrender",
+     "ev": -0.5,
+     "win": 0,
+     "push": 0,
+     "lose": 1
+    }
+   ]
+  },
+  {
+   "label": "16 (7,4,5) gegen 10, S17 – drei Karten",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": -0.53916704,
+     "win": 0.23041648,
+     "push": 0,
+     "lose": 0.76958352
+    },
+    {
+     "action": "hit",
+     "ev": -0.54594319,
+     "win": 0.19771597,
+     "push": 0.058624877,
+     "lose": 0.74365915
+    }
+   ]
+  },
+  {
+   "label": "12 (10,2) gegen 4, S17",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": -0.21111531,
+     "win": 0.39444235,
+     "push": 0,
+     "lose": 0.60555765
+    },
+    {
+     "action": "hit",
+     "ev": -0.21036426,
+     "win": 0.3712876,
+     "push": 0.047060535,
+     "lose": 0.58165186
+    },
+    {
+     "action": "double",
+     "ev": -0.42072852,
+     "win": 0.3712876,
+     "push": 0.047060535,
+     "lose": 0.58165186
+    }
+   ]
+  },
+  {
+   "label": "11 (6,5) gegen A, S17",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": -0.66188284,
+     "win": 0.16905858,
+     "push": 0,
+     "lose": 0.83094142
+    },
+    {
+     "action": "hit",
+     "ev": 0.14759567,
+     "win": 0.51935428,
+     "push": 0.10888711,
+     "lose": 0.37175861
+    },
+    {
+     "action": "double",
+     "ev": 0.12970988,
+     "win": 0.49201222,
+     "push": 0.080830502,
+     "lose": 0.42715728
+    }
+   ]
+  },
+  {
+   "label": "11 (6,5) gegen A, H17",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": -0.59507785,
+     "win": 0.20246107,
+     "push": 0,
+     "lose": 0.79753893
+    },
+    {
+     "action": "hit",
+     "ev": 0.10866848,
+     "win": 0.49941102,
+     "push": 0.10984644,
+     "lose": 0.39074254
+    },
+    {
+     "action": "double",
+     "ev": 0.12400675,
+     "win": 0.48954741,
+     "push": 0.082908552,
+     "lose": 0.42754404
+    },
+    {
+     "action": "surrender",
+     "ev": -0.5,
+     "win": 0,
+     "push": 0,
+     "lose": 1
+    }
+   ]
+  },
+  {
+   "label": "Soft 18 (A,7) gegen 2, S17",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": 0.12400076,
+     "win": 0.49473006,
+     "push": 0.13454064,
+     "lose": 0.3707293
+    },
+    {
+     "action": "hit",
+     "ev": 0.063289331,
+     "win": 0.4893485,
+     "push": 0.084592328,
+     "lose": 0.42605917
+    },
+    {
+     "action": "double",
+     "ev": 0.12098004,
+     "win": 0.48986043,
+     "push": 0.080769154,
+     "lose": 0.42937041
+    }
+   ]
+  },
+  {
+   "label": "Soft 18 (A,7) gegen 2, H17",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": 0.11311015,
+     "win": 0.488535,
+     "push": 0.13604015,
+     "lose": 0.37542485
+    },
+    {
+     "action": "hit",
+     "ev": 0.060441376,
+     "win": 0.48788355,
+     "push": 0.084674282,
+     "lose": 0.42744217
+    },
+    {
+     "action": "double",
+     "ev": 0.11626161,
+     "win": 0.48863057,
+     "push": 0.080869669,
+     "lose": 0.43049976
+    },
+    {
+     "action": "surrender",
+     "ev": -0.5,
+     "win": 0,
+     "push": 0,
+     "lose": 1
+    }
+   ]
+  },
+  {
+   "label": "A,A gegen 10, S17",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": -0.53879673,
+     "win": 0.23060164,
+     "push": 0,
+     "lose": 0.76939836
+    },
+    {
+     "action": "hit",
+     "ev": -0.066309801,
+     "win": 0.41163147,
+     "push": 0.11042726,
+     "lose": 0.47794127
+    },
+    {
+     "action": "double",
+     "ev": -0.50665025,
+     "win": 0.34340852,
+     "push": 0.059857831,
+     "lose": 0.59673365
+    },
+    {
+     "action": "split",
+     "ev": 0.18216138,
+     "win": 0.51122269,
+     "push": 0.068750884,
+     "lose": 0.420142
+    }
+   ]
+  },
+  {
+   "label": "8,8 gegen 10, S17 Peek",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": -0.5368533,
+     "win": 0.23157335,
+     "push": 0,
+     "lose": 0.76842665
+    },
+    {
+     "action": "hit",
+     "ev": -0.53536104,
+     "win": 0.20248558,
+     "push": 0.059667807,
+     "lose": 0.73784662
+    },
+    {
+     "action": "double",
+     "ev": -1.0707221,
+     "win": 0.20248558,
+     "push": 0.059667807,
+     "lose": 0.73784662
+    },
+    {
+     "action": "split",
+     "ev": -0.47485414,
+     "win": 0.33587768,
+     "push": 0.10090781,
+     "lose": 0.56317954
+    }
+   ]
+  },
+  {
+   "label": "8,8 gegen 10, European No-Hole-Card",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": -0.57282586,
+     "win": 0.21358707,
+     "push": 0,
+     "lose": 0.78641293
+    },
+    {
+     "action": "hit",
+     "ev": -0.5714495,
+     "win": 0.18675854,
+     "push": 0.055033414,
+     "lose": 0.75820804
+    },
+    {
+     "action": "double",
+     "ev": -1.142899,
+     "win": 0.18675854,
+     "push": 0.055033414,
+     "lose": 0.75820804
+    },
+    {
+     "action": "split",
+     "ev": -0.61581561,
+     "win": 0.31010215,
+     "push": 0.094646856,
+     "lose": 0.595251
+    }
+   ]
+  },
+  {
+   "label": "11 gegen 10, European No-Hole-Card",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": -0.57750729,
+     "win": 0.21124635,
+     "push": 0,
+     "lose": 0.78875365
+    },
+    {
+     "action": "hit",
+     "ev": 0.031701864,
+     "win": 0.47490739,
+     "push": 0.081887079,
+     "lose": 0.44320553
+    },
+    {
+     "action": "double",
+     "ev": 0.0092514145,
+     "win": 0.47082419,
+     "push": 0.062977331,
+     "lose": 0.46619848
+    }
+   ]
+  },
+  {
+   "label": "10,10 gegen 6, S17",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": 0.70282604,
+     "win": 0.80042988,
+     "push": 0.10196629,
+     "lose": 0.097603836
+    },
+    {
+     "action": "hit",
+     "ev": -0.85226284,
+     "win": 0.070067252,
+     "push": 0.0076026508,
+     "lose": 0.9223301
+    },
+    {
+     "action": "double",
+     "ev": -1.7045257,
+     "win": 0.070067252,
+     "push": 0.0076026508,
+     "lose": 0.9223301
+    },
+    {
+     "action": "split",
+     "ev": 0.4453626,
+     "win": 0.54943078,
+     "push": 0.058781628,
+     "lose": 0.3917876
+    }
+   ]
+  },
+  {
+   "label": "5,5 gegen 9, S17",
+   "actions": [
+    {
+     "action": "stand",
+     "ev": -0.5426612,
+     "win": 0.2286694,
+     "push": 0,
+     "lose": 0.7713306
+    },
+    {
+     "action": "hit",
+     "ev": 0.11665336,
+     "win": 0.50162084,
+     "push": 0.11341168,
+     "lose": 0.38496748
+    },
+    {
+     "action": "double",
+     "ev": 0.14918834,
+     "win": 0.49373231,
+     "push": 0.087129555,
+     "lose": 0.41913814
+    },
+    {
+     "action": "split",
+     "ev": -0.6378642,
+     "win": 0.3041532,
+     "push": 0.086390884,
+     "lose": 0.60945591
+    }
+   ]
+  }
+ ]
+}
