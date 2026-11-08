@@ -30,6 +30,8 @@ export interface SrcRow {
 export interface SourceChart {
   id: string;
   title: string;
+  /** short unique label for lists and legends */
+  short: string;
   origin: string;
   /** legend: printed symbol -> canonical code + meaning */
   legend: { symbol: string; code: SrcCode; meaning: string }[];
@@ -61,6 +63,7 @@ const range = (a: number, b: number) => Array.from({ length: b - a + 1 }, (_, i)
 const FR: Record<string, SrcCode> = { T: 'H', R: 'S', D: 'D', P: 'P', '?': '?' };
 const img1: SourceChart = {
   id: 'img1-fr',
+  short: 'Bild 1 (französisch)',
   title: 'Bild 1 – Französische Tabelle („Joueur / Groupier“)',
   origin: 'Vom Nutzer bereitgestelltes Bild 1 (Chat, 2026-11-07), niedrige Auflösung.',
   legend: [
@@ -119,6 +122,7 @@ const img1: SourceChart = {
 const EN: Record<string, SrcCode> = { H: 'H', S: 'S', D: 'D', P: 'P', '?': '?' };
 const img2: SourceChart = {
   id: 'img2-hsdp',
+  short: 'Bild 2 (H/S/D/P)',
   title: 'Bild 2 – Farbtabelle H/S/D/P (Hard · Soft · Pairs)',
   origin: 'Vom Nutzer bereitgestelltes Bild 2 (Chat, 2026-11-07), niedrige Auflösung.',
   legend: [
@@ -171,6 +175,7 @@ const img2: SourceChart = {
 const C3: Record<string, SrcCode> = { ST: 'S', H: 'H', D: 'D', SP: 'P', '?': '?' };
 const img3: SourceChart = {
   id: 'img3-card',
+  short: 'Bild 3 (Strategy Card)',
   title: 'Bild 3 – „Blackjack Basic Strategy Card“ (ST/H/D/SP)',
   origin: 'Vom Nutzer bereitgestelltes Bild 3 (Chat, 2026-11-07), niedrige Auflösung.',
   legend: [
@@ -222,6 +227,7 @@ const img3: SourceChart = {
 const C4: Record<string, SrcCode> = { H: 'H', S: 'S', D: 'Dh', DS: 'Ds', R: 'Rh', RS: 'Rs', '?': '?' };
 const img4: SourceChart = {
   id: 'img4-468-h17',
+  short: 'Bild 4 (4/6/8 Decks H17)',
   title: 'Bild 4 – „Blackjack Basic Strategy Chart, 4/6/8 Decks, Dealer Hits Soft 17“ (Kenneth R Smith, Bayview Strategies)',
   origin: 'Vom Nutzer bereitgestelltes Bild 4 (Chat, 2026-11-07). Aufdruck: © 2008-2017 Bayview Strategies, LLC. Paare laut Karte auf der Rückseite – nicht enthalten.',
   legend: [
@@ -267,6 +273,7 @@ const img4: SourceChart = {
 const C5: Record<string, SrcCode> = { H: 'H', S: 'S', DD: 'D', SP: 'P', '?': '?' };
 const img5: SourceChart = {
   id: 'img5-blue',
+  short: 'Bild 5 (blaue Karte)',
   title: 'Bild 5 – Blaue Karte „H=HIT S=STAND DD=DOUBLE SP=SPLIT“',
   origin: 'Vom Nutzer bereitgestelltes Bild 5 (Chat, 2026-11-07), niedrige Auflösung, kleine Schrift.',
   legend: [
@@ -319,6 +326,7 @@ const img5: SourceChart = {
 const WZ: Record<string, SrcCode> = { H: 'H', S: 'S', Dh: 'Dh', Ds: 'Ds', P: 'P', Ph: 'Ph', Rh: 'Rh', Rs: 'Rs', Rp: 'Rp', '?': '?' };
 const wizS17: SourceChart = {
   id: 'wizard-48-s17',
+  short: 'Wizard 4–8 Decks S17',
   title: 'Wizard of Odds – 4–8 Decks, Dealer Stands on Soft 17',
   origin: 'https://wizardofodds.com/blackjack/images/bj_4d_s17.gif (Seite „4-Deck to 8-Deck Blackjack Strategy“, aktualisiert 03.08.2026, abgerufen 07.11.2026).',
   legend: [
@@ -362,6 +370,7 @@ const wizS17: SourceChart = {
 
 const wizH17: SourceChart = {
   id: 'wizard-48-h17',
+  short: 'Wizard 4–8 Decks H17',
   title: 'Wizard of Odds – 4–8 Decks, Dealer Hits on Soft 17',
   origin: 'https://wizardofodds.com/blackjack/images/bj_4d_h17.gif (Seite „4-Deck to 8-Deck Blackjack Strategy“, aktualisiert 03.08.2026, abgerufen 07.11.2026).',
   legend: wizS17.legend.concat([

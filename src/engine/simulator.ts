@@ -16,6 +16,7 @@ import type { Action } from './ev';
 import { Rules, doubleAllowedFor } from './rules';
 import { Xoshiro128, subSeed } from './rng';
 import type { HandView, SimStrategy } from './simStrategies';
+import { batchSE } from './stats';
 
 export type ShoeMode = 'shoe' | 'fresh' | 'infinite';
 
@@ -111,8 +112,8 @@ export class Simulator {
   streamTC: number[] = [];
   /** money at risk per round in units of the initial bet (≥ 1 with doubles/splits) */
   streamWager: number[] = [];
-  /** convergence checkpoints: [rounds, mean EV per initial bet] */
-  checkpoints: [number, number][] = [];
+  /** convergence checkpoints: [rounds, mean EV per initial bet, batch standard error] */
+  checkpoints: [number, number, number][] = [];
 
   private template: Uint8Array;
   private cards: Uint8Array;
@@ -529,7 +530,7 @@ export class Simulator {
       this.streamWager.push(units > 0 ? wagered / units : 0);
     }
     if (cnt.rounds >= this.nextCheckpoint) {
-      this.checkpoints.push([cnt.rounds, cnt.initial > 0 ? cnt.net / cnt.initial : 0]);
+      this.checkpoints.push([cnt.rounds, cnt.initial > 0 ? cnt.net / cnt.initial : 0, batchSE(this.batches)]);
       this.nextCheckpoint = Math.ceil(this.nextCheckpoint * 1.5);
     }
   }

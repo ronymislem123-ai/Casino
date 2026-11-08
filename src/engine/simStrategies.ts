@@ -290,7 +290,7 @@ export function chartStrategy(chart: SourceChart, table: StrategyTable, rules: R
     filled,
     strategy: {
       id: `chart-${chart.id}`,
-      name: chart.title.replace(/ –.*$/, ''),
+      name: `Tabelle: ${chart.short}`,
       description: `Gespielt exakt nach der transkribierten Tabelle (${filled} unlesbare Zellen durch die Engine ergänzt).`,
       kind: 'custom',
       decide: (v, up) => tableDecide(t2, v, up),

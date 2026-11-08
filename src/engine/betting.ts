@@ -65,6 +65,8 @@ export interface SystemResult {
   meanWagered: number;
   /** total net / total wagered over all sessions */
   evPerWagered: number;
+  /** standard error of evPerWagered (ratio estimator over independent sessions) */
+  evPerWageredSE: number;
   meanMaxDrawdown: number;
   meanLongestLossStreak: number;
   meanHandsPlayed: number;
@@ -99,6 +101,18 @@ export function fitKellyModel(stream: OutcomeStream): KellyModel {
   return { a: fit.a, b: fit.b, n: fit.n, variance };
 }
 
+function ratioSE(y: number[], x: number[]): number {
+  const K = y.length;
+  if (K < 2) return NaN;
+  const sy = y.reduce((a, b) => a + b, 0);
+  const sx = x.reduce((a, b) => a + b, 0);
+  if (sx <= 0) return NaN;
+  const r = sy / sx;
+  let ss = 0;
+  for (let k = 0; k < K; k++) ss += (y[k] - r * x[k]) ** 2;
+  return Math.sqrt(ss / (K * (K - 1))) / (sx / K);
+}
+
 const FIB = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765];
 
 export function runBettingSystem(id: BetSystemId, stream: OutcomeStream, cfg: BettingConfig, kelly?: KellyModel): SystemResult {
@@ -116,6 +130,8 @@ export function runBettingSystem(id: BetSystemId, stream: OutcomeStream, cfg: Be
   let maxBetSeen = 0;
   let limitHits = 0;
   const samplePaths: number[][] = [];
+  const sesNet: number[] = [];
+  const sesWag: number[] = [];
   const H = cfg.handsPerSession;
   const total = stream.net.length;
   for (let s = 0; s < cfg.sessions; s++) {
@@ -134,6 +150,8 @@ export function runBettingSystem(id: BetSystemId, stream: OutcomeStream, cfg: Be
     let fibIdx = 0;
     let dalUnits = 1;
     let played = 0;
+    let sNet = 0;
+    let sWag = 0;
     const path: number[] = [];
     const record = s < 12;
     const step = Math.max(1, Math.floor(H / 200));
@@ -187,6 +205,8 @@ export function runBettingSystem(id: BetSystemId, stream: OutcomeStream, cfg: Be
       const result = bet * m;
       totWagered += bet * stream.wager[offset + i];
       totNet += result;
+      sWag += bet * stream.wager[offset + i];
+      sNet += result;
       sumBets += bet;
       nBets++;
       if (bet > maxBetSeen) maxBetSeen = bet;
@@ -218,6 +238,8 @@ export function runBettingSystem(id: BetSystemId, stream: OutcomeStream, cfg: Be
       samplePaths.push(path);
     }
     finals.push(B);
+    sesNet.push(sNet);
+    sesWag.push(sWag);
     if (B > cfg.bankroll) ahead++;
     sumDD += maxDD;
     sumStreak += longest;
@@ -239,6 +261,7 @@ export function runBettingSystem(id: BetSystemId, stream: OutcomeStream, cfg: Be
     aheadProb: ahead / n,
     meanWagered: totWagered / n,
     evPerWagered: totWagered > 0 ? totNet / totWagered : 0,
+    evPerWageredSE: ratioSE(sesNet, sesWag),
     meanMaxDrawdown: sumDD / n,
     meanLongestLossStreak: sumStreak / n,
     meanHandsPlayed: sumHands / n,
