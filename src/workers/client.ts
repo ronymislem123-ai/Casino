@@ -13,14 +13,25 @@ interface Pending {
   progress?: Progress;
 }
 
-let worker: Worker | null = null;
+/**
+ * Two independent engine workers: 'live' only answers hand evaluations for the live
+ * assistant/trainer, 'bg' handles long jobs (strategy tables, house-edge analysis,
+ * chart comparisons, Monte Carlo checks). Live decisions therefore never queue
+ * behind background computations.
+ */
+type Lane = 'live' | 'bg';
+const workers: Partial<Record<Lane, Worker>> = {};
 let seq = 0;
 const pending = new Map<number, Pending>();
 
-function getWorker(): Worker {
-  if (!worker) {
-    worker = new Worker(new URL('./engine.worker.ts', import.meta.url), { type: 'module' });
-    worker.onmessage = (ev: MessageEvent) => {
+function getWorker(lane: Lane): Worker {
+  let w = workers[lane];
+  if (!w) {
+    w =
+      lane === 'live'
+        ? new Worker(new URL('./engine.worker.ts', import.meta.url), { type: 'module', name: 'engine-live' })
+        : new Worker(new URL('./engine.worker.ts', import.meta.url), { type: 'module', name: 'engine-bg' });
+    w.onmessage = (ev: MessageEvent) => {
       const m = ev.data;
       const p = pending.get(m.id);
       if (!p) return;
@@ -33,15 +44,16 @@ function getWorker(): Worker {
         p.reject(new Error(m.error));
       }
     };
+    workers[lane] = w;
   }
-  return worker;
+  return w;
 }
 
-function call<T>(msg: Record<string, unknown>, progress?: Progress): Promise<T> {
+function call<T>(msg: Record<string, unknown>, progress?: Progress, lane: Lane = 'bg'): Promise<T> {
   const id = ++seq;
   return new Promise<T>((resolve, reject) => {
     pending.set(id, { resolve: resolve as (v: unknown) => void, reject, progress });
-    getWorker().postMessage({ ...msg, id });
+    getWorker(lane).postMessage({ ...msg, id });
   });
 }
 
@@ -56,7 +68,7 @@ export const engineClient = {
   table: (rules: Rules, progress?: Progress, deckModel: 'finite' | 'infinite' = 'finite') =>
     call<StrategyTable>({ type: 'table', rules, deckModel }, progress),
   primeTable: (rules: Rules, table: StrategyTable) => call<boolean>({ type: 'table', rules, table }),
-  evaluate: (rules: Rules, ctx: HandContext) => call<LiveEvaluation>({ type: 'evaluate', rules, ctx }),
+  evaluate: (rules: Rules, ctx: HandContext) => call<LiveEvaluation>({ type: 'evaluate', rules, ctx }, undefined, 'live'),
   houseEdge: (base: Rules, variants: { label: string; rules: Rules }[], progress?: Progress) =>
     call<HouseEdgeResult>({ type: 'houseEdge', base, variants }, progress),
   compareChart: (rules: Rules, chartId: string, progress?: Progress) => call<ChartComparison>({ type: 'compareChart', rules, chartId }, progress),
