@@ -37,6 +37,10 @@ npx tsx scripts/analyzeCharts.ts   # Regel-Inferenz der Quelltabellen → docs/S
 npm run precompute        # Preset-Strategiecodes für sofortige Offline-Empfehlungen
 ```
 
+### Online-Version (GitHub Pages)
+
+Der Workflow `.github/workflows/pages.yml` führt bei jedem Push auf den Standard-Branch die Tests aus, baut die App und veröffentlicht `dist/` auf GitHub Pages (Adresse: `https://<owner>.github.io/<repo>/`). Voraussetzung: In den Repository-Einstellungen unter *Settings → Pages → Build and deployment* ist als Quelle **GitHub Actions** gewählt. Für private Repositories ist GitHub Pages nur mit einem kostenpflichtigen GitHub-Plan verfügbar; die veröffentlichte Seite ist öffentlich erreichbar.
+
 Die App ist nach dem ersten Laden offline nutzbar und lässt sich über „Zum Startbildschirm hinzufügen“ installieren. Der Build verwendet relative Pfade und läuft daher auf jedem statischen Hosting.
 
 ## Validierung (Kurzfassung)
